@@ -26,14 +26,15 @@ public class Ejemplo02 {
         System.out.println(arreglo1[4]);
         
         // arreglo de tipo double
-        double[] arreglo2 = new double[5];
+        double[] arreglo2 = new double[5]; // imprime 0.0 porque es un doble 
+        // o sea es un decimal y en la posición cero del arreglo está 0.0
         System.out.println(arreglo2[0]);
         
-        // arreglo de tipo String
+        // arreglo de tipo String // imprime null porque es una cadena
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
-        // arreglo de tipo boleano
+        // arreglo de tipo boleano // imprime false porque es un boleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
     }

@@ -33,7 +33,7 @@ public class Ejemplo15 {
             if (i % 2 == 0) {
                 sumaEdades = sumaEdades + edades[i];
                 cadenaFinal = String.format("%sEdad agregada %d pertenece al"
-                        + "estudiante de nombre %s\n",
+                        + " estudiante de nombre %s\n",
                         cadenaFinal,
                         edades[i],
                         nombres[i]);
